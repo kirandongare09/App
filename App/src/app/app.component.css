@@ -1,0 +1,13 @@
+.title{
+    padding: 10px;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    width:108px;
+}
+.background{
+    background-image: url('/assets/images/wp2968489.webp');
+    background-size: cover;
+}
+div{
+    height: 100%;
+}

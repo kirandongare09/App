@@ -2,14 +2,21 @@
     display: flex;
     justify-content: center;
     margin: 100px 0px;
+    font-family: "Helvetica (sans-serif)";
   }
 
   .mat-form-field {
     width: 100%;
-    min-width: 300px;
+    min-width: 400px;
   }
 
-  mat-card-title,
+  mat-card-title{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Helvetica (sans-serif)";
+    font-size: 35px;
+  }
   mat-card-content {
     display: flex;
     justify-content: center;
@@ -17,15 +24,23 @@
 
   .error {
     padding: 16px;
-    width: 300px;
+    width: 400px;
     color: white;
     background-color: red;
   }
 
   .button {
+    padding-bottom: 12px;
     display: flex;
     justify-content: flex-end;
   }
 
+.login{
+    min-width:500px;
+}
 
-  
+.signup{
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
